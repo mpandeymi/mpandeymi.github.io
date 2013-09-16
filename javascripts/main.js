@@ -1,7 +1,7 @@
 console.log('changed.');
 $(document).ready(function(){
 	$("body").click(function(){
-		$("body").css("background-color", "red");
+		$("#project_title").text("Rahul has taken over");
 	});
 });
 
